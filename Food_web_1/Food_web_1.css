@@ -37,7 +37,7 @@ header .header_content {
 }
 
 .logo img {
-    font-size: 1.5rem;
+    height: 80px;
 }
 
 .header_content .navber {
@@ -369,4 +369,174 @@ footer .foot_contaner{
     gap: 20px;
     font-size: 2.5rem;
     /* background-color: cadetblue; */
+}
+
+@media screen and (min-width:475px) and (max-width:640px){
+    header {
+        height: 40px;
+    }
+    
+    .header_content .logo {
+        width: 20%;
+    }
+    
+    .logo img {
+        height: 30px;
+    }
+    
+    .header_content .navber {
+        width: 10%;
+    }
+    
+    .navber i {
+        font-size: 1.5rem;
+    }
+    
+    main .container{
+        width: 459px;
+    }
+    .container .content_1{
+        height: 460px;
+        flex-direction: column;
+        padding-left: 10px;
+        /* background-color: brown; */
+    }
+    .content_1 .image{
+        height: 45%;
+        width: 100%;
+        justify-content: center;
+        /* background: aqua; */
+    }
+    .image img{
+        height: 12rem;
+    }
+    .content_1 .text_1{
+        height: 55%;
+        width: 100%;
+        /* background: rgb(229, 132, 132); */
+    }
+    .text_1 span{
+        width: 35%;
+        font-size: 1rem;
+    }
+    .text_1 h2{
+        height: 100px;
+        font-size: 3rem;
+        /* background-color: gainsboro; */
+    }
+    .text_1 p{
+        height: 60px;
+        font-size: 1.2rem;
+        /* background: gray; */
+    }
+    .text_1 a button{
+        height: 40px;
+        width: 40%;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        margin-left: 30%;
+    }
+    
+    .container .content_2{
+        height: 420px;
+        flex-wrap: wrap;
+        padding: 20px;
+        /* background: coral; */
+    }
+    
+    .content_2 .subcontent{
+        height: calc(100% / 4);
+        width: 100%;
+        /* background: yellowgreen; */
+    }
+    .subcontent img{
+        height: 80px;
+    }
+    
+    .container .content_3{
+        height: 1540px;
+        width: 100%;
+        /* background-color: burlywood; */
+    }
+    /* .content_3 .content_3_text{
+        background-color: blueviolet;
+    } */
+    .content_3_text a{
+        width: 50%;
+    }
+    .content_3_text button{
+        border-radius: 8px;
+        font-size: 1.9rem;
+    }
+    .content_3_text h2{
+        height: 40%;
+        width: 95%;
+        font-size: 3.1rem;
+    }
+    .content_3 .content_3_image{
+        height: calc(1540px - 150px);
+        grid-template-columns: 220px 220px;
+        grid-template-rows: 220px 220px 220px 220px 220px 220px;
+        padding-left: 1%;
+        padding-right: 1%;
+        gap: 5px;
+        /* background-color: aquamarine; */
+    }
+    #box1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    
+    }
+    #box2{
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    #box7{
+        grid-row-start: -3;
+        grid-row-end: -1;
+    }
+
+    footer{
+        height: 150px;
+        /* background-color: rgba(209, 161, 127, 0.483); */
+    }
+    footer .foot_contaner{
+        width: 100%;
+    }
+    .foot_contaner #foot{
+        height: 100%;
+        width: 24%;
+        /* background-color: rgb(239, 169, 63); */
+    }
+    .foot_image img{
+        height: 40px;
+    }
+    .foot_main_links h2{
+        font-size: 1.2rem;
+    }
+    .foot_main_links span a{
+        font-size: .8rem;
+    }
+    .foot_btn .foot_btn_input h2{
+        font-size: 1.2rem;
+        /* background-color: blue; */
+    }
+    .foot_btn .foot_btn_input input{
+        height: 23%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-size: .3rem;
+    }
+    .foot_btn .foot_btn_icon h2{
+        font-size: 1.2rem;
+    }
+    .foot_btn .foot_btn_icon .icon{
+        gap: 12px;
+        font-size: 1rem;
+        /* background-color: cadetblue; */
+    }
 }
