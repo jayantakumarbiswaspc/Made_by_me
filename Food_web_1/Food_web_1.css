@@ -499,9 +499,8 @@ footer .foot_contaner{
     }
     .content_3 .content_3_image{
         height: calc(1190px - 130px);
-        grid-template-columns: 166px 166px;
-        align-self: center;
-        grid-template-rows: 166px 166px 166px 166px 166px 166px;
+        grid-template-columns: 177px 177px;
+        grid-template-rows: 177px 177px 177px 177px 177px 177px;
         padding-left: 1%;
         padding-right: 1%;
         gap: 5px;
@@ -512,7 +511,7 @@ footer .foot_contaner{
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 3;
-    
+        justify-self: center;
     }
     #box2{
         grid-row-start: 3;
