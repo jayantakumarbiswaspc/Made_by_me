@@ -371,7 +371,179 @@ footer .foot_contaner{
     /* background-color: cadetblue; */
 }
 
-@media screen and (min-width:480px) and (max-width:720px){
+@media screen and (min-width:360px) and (max-width:480px){
+    header {
+        height: 40px;
+    }
+    
+    .header_content .logo {
+        width: 20%;
+    }
+    
+    .logo img {
+        height: 30px;
+    }
+    
+    .header_content .navber {
+        width: 10%;
+    }
+    
+    .navber i {
+        font-size: 1.5rem;
+    }
+    
+    main .container{
+        width: 480px;
+    }
+    .container .content_1{
+        height: 460px;
+        flex-direction: column;
+        padding-left: 0px;
+        background-color: brown;
+    }
+    .content_1 .image{
+        height: calc(100% - 35%);
+        width: 100%;
+        justify-content: center;
+        background: aqua;
+    }
+    .image img{
+        height: 16rem;
+    }
+    .content_1 .text_1{
+        height: 35%;
+        width: 100%;
+        background: rgb(229, 132, 132);
+    }
+    .text_1 span{
+        height: 20px;
+        width: 32%;
+        font-size: .6rem;
+    }
+    .text_1 h2{
+        height: 60px;
+        font-size: 1.5rem;
+        background-color: gainsboro;
+    }
+    .text_1 p{
+        height: 40px;
+        font-size: .7rem;
+        background: gray;
+    }
+    .text_1 a button{
+        height: 30px;
+        width: 30%;
+        font-size: 1rem;
+        border-radius: 8px;
+        margin-left: 30%;
+    }
+    
+    .container .content_2{
+        height: 420px;
+        flex-wrap: wrap;
+        padding: 20px;
+        /* background: coral; */
+    }
+    
+    .content_2 .subcontent{
+        height: calc(100% / 4);
+        width: 100%;
+        /* background: yellowgreen; */
+    }
+    .subcontent img{
+        height: 80px;
+    }
+    
+    .container .content_3{
+        height: 1600px;
+        width: 100%;
+        /* background-color: burlywood; */
+    }
+    /* .content_3 .content_3_text{
+        background-color: blueviolet;
+    } */
+    .content_3_text a{
+        width: 50%;
+    }
+    .content_3_text button{
+        border-radius: 8px;
+        font-size: 1.9rem;
+    }
+    .content_3_text h2{
+        height: 40%;
+        width: 95%;
+        font-size: 3.1rem;
+    }
+    .content_3 .content_3_image{
+        height: calc(1600px - 150px);
+        grid-template-columns: 23px 23px;
+        grid-template-rows: 232px 232px 232px 232px 232px 232px;
+        padding-left: 1%;
+        padding-right: 1%;
+        gap: 5px;
+        /* background-color: aquamarine; */
+    }
+    #box1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    
+    }
+    #box2{
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    #box7{
+        grid-row-start: -3;
+        grid-row-end: -1;
+    }
+
+    footer{
+        height: 150px;
+        /* background-color: rgba(209, 161, 127, 0.483); */
+    }
+    footer .foot_contaner{
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .foot_contaner #foot{
+        height: 100%;
+        width: 22.5%;
+        /* background-color: rgb(239, 169, 63); */
+    }
+    .foot_image img{
+        height: 50px;
+        margin-left: 15px;
+    }
+    .foot_main_links h2{
+        font-size: 1.1rem;
+    }
+    .foot_main_links span a{
+        font-size: .8rem;
+    }
+    .foot_btn .foot_btn_input h2{
+        font-size: 1.1rem;
+        /* background-color: blue; */
+    }
+    .foot_btn .foot_btn_input input{
+        height: 23%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-size: .7rem;
+    }
+    .foot_btn .foot_btn_icon h2{
+        font-size: 1.1rem;
+    }
+    .foot_btn .foot_btn_icon .icon{
+        gap: 12px;
+        font-size: .1rem;
+        /* background-color: cadetblue; */
+    }
+}
+@media screen and (min-width:481px) and (max-width:720px){
     header {
         height: 40px;
     }
@@ -543,6 +715,192 @@ footer .foot_contaner{
     }
 }
 @media screen and (min-width:721px) and (max-width:1080px){
+    header {
+        height: 40px;
+    }
+    
+    .header_content .logo {
+        width: 20%;
+        /* background-color: red; */
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    .header_content .navber {
+        width: 10%;
+    }
+    
+    .navber i {
+        font-size: 1.4rem;
+    }
+    
+    main .container{
+        width: 721px;
+    }
+    .container .content_1{
+        height: 300px;
+        flex-direction: row;
+        padding-left: 10px;
+        /* background-color: brown; */
+    }
+    .content_1 .image{
+        height: 100%;
+        width: 40%;
+        justify-content: left;
+        /* background: aqua; */
+    }
+    .image img{
+        height: 15rem;
+    }
+    .content_1 .text_1{
+        height: 80%;
+        width: 60%;
+        padding-left: 5px;
+        /* background: rgb(229, 132, 132); */
+    }
+    .text_1 span{
+        height: 30px;
+        width: 41%;
+        font-size: 1.09rem;
+    }
+    .text_1 h2{
+        height: 95px;
+        font-size: 2.6rem;
+        /* background-color: gainsboro; */
+    }
+    .text_1 p{
+        height: 50px;
+        font-size: 1.1rem;
+        line-height: 1;
+        /* background: gray; */
+    }
+    .text_1 a button{
+        height: 35px;
+        width: 30%;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        margin-left: 0%;
+    }
+    
+    .container .content_2{
+        height: 300px;
+        flex-wrap: wrap;
+        padding: 20px;
+        /* background: coral; */
+    }
+    
+    .content_2 .subcontent{
+        height: 120px;
+        width: 45%;
+        /* background: yellowgreen; */
+    }
+    .subcontent img{
+        height: 80px;
+    }
+
+    .subtext h3{
+        height: 22%;
+        font-size: 1.3rem;
+        /* background-color: rgb(32, 85, 131); */
+    }
+    .subtext p{
+        height: calc(100% - 55%);
+        font-size: 1.1rem;
+        /* background-color: burlywood; */
+    }
+    
+    .container .content_3{
+        height: 690px;
+        width: 100%;
+        /* background-color: burlywood; */
+    }
+    .content_3 .content_3_text{
+        height: 120px;
+        /* background-color: blueviolet; */
+    }
+    .content_3_text a{
+        width: 25%;
+    }
+    .content_3_text button{
+        border-radius: 8px;
+        font-size: 1.9rem;
+    }
+    .content_3_text h2{
+        height: 40%;
+        width: 95%;
+        font-size: 2.8rem;
+    }
+    .content_3 .content_3_image{
+        height: calc(690px - 120px);
+        grid-template-columns: 173px 173px 173px 173px;
+        grid-template-rows: 173px 173px 173px;
+        padding-left: 1%;
+        padding-right: 1%;
+        gap: 5px;
+        /* background-color: aquamarine; */
+    }
+    #box1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #box2{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #box7{
+        grid-row-start: -1;
+        grid-row-end: -3;
+    }
+
+    footer{
+        height: 150px;
+        /* background-color: rgba(209, 161, 127, 0.483); */
+    }
+    footer .foot_contaner{
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .foot_contaner #foot{
+        height: 100%;
+        width: 24%;
+        /* background-color: rgb(239, 169, 63); */
+    }
+    .foot_image img{
+        height: 50px;
+        margin-left: 15px;
+    }
+    .foot_main_links h2{
+        font-size: 1.1rem;
+    }
+    .foot_main_links span a{
+        font-size: .8rem;
+    }
+    .foot_btn .foot_btn_input h2{
+        font-size: 1.1rem;
+        /* background-color: blue; */
+    }
+    .foot_btn .foot_btn_input input{
+        height: 23%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-size: .6rem;
+    }
+    .foot_btn .foot_btn_icon h2{
+        font-size: 1.1rem;
+    }
+    .foot_btn .foot_btn_icon .icon{
+        gap: 12px;
+        font-size: 1rem;
+        /* background-color: cadetblue; */
+    }
+}
+@media screen and (min-width:1081px) and (max-width:1220px){
     header {
         height: 40px;
     }
