@@ -398,7 +398,7 @@ footer .foot_contaner{
     .container .content_1{
         height: 460px;
         flex-direction: column;
-        padding-left: 0px;
+        padding-left: 10px;
         /* background-color: brown; */
     }
     .content_1 .image{
@@ -500,6 +500,7 @@ footer .foot_contaner{
     .content_3 .content_3_image{
         height: calc(1190px - 130px);
         grid-template-columns: 166px 166px;
+        align-self: center;
         grid-template-rows: 166px 166px 166px 166px 166px 166px;
         padding-left: 1%;
         padding-right: 1%;
