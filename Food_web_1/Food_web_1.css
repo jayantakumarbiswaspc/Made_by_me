@@ -371,7 +371,7 @@ footer .foot_contaner{
     /* background-color: cadetblue; */
 }
 
-@media screen and (min-width:240px) and (max-width:1024px){
+@media screen and (min-width:240px) and (max-width:1280px){
     header {
         height: 40px;
     }
