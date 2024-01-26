@@ -217,16 +217,19 @@ main .container{
     font-size: 2.5rem;
     /* background: rebeccapurple; */
 }
+
 .content_3 .content_3_image{
-    height: calc(1190px - 150px);
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 328px 328px 328px 328px;
     grid-template-rows: 328px 328px 328px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-left: 2%;
     padding-right: 2%;
     gap: 10px;
+    align-content: center;
+    justify-content: center;
     /* background-color: aquamarine; */
 }
 .content_3_image img{
@@ -497,14 +500,16 @@ footer .foot_contaner{
         width: 95%;
         font-size: 2.3rem;
     }
+
     .content_3 .content_3_image{
         height: calc(1190px - 130px);
-        grid-template-columns: 177px 177px;
-        grid-template-rows: 177px 177px 177px 177px 177px 177px;
+        width: 100%;
+        grid-template-columns: 166px 166px;
+        grid-template-rows: 166px 166px 166px 166px 166px 166px;
         padding-left: 1%;
         padding-right: 1%;
         gap: 5px;
-        /* background-color: aquamarine; */
+        /* background-color: rgb(41, 154, 116); */
     }
     #box1{
         grid-column-start: 1;
